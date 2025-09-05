@@ -558,9 +558,9 @@ export default function AdminPanel({ isOpen, onClose }: AdminPanelProps) {
                                 onChange={(e) => {
                                   const currentSizes = watchProduct('sizes') || [];
                                   if (e.target.checked) {
-                                    setProductValue('sizes', [...currentSizes, size]);
+                                    setProductValue('sizes', [...(Array.isArray(currentSizes) ? currentSizes : []), size]);
                                   } else {
-                                    setProductValue('sizes', currentSizes.filter(s => s !== size));
+                                    setProductValue('sizes', (Array.isArray(currentSizes) ? currentSizes : []).filter((s: string) => s !== size));
                                   }
                                 }}
                                 className="rounded border-border text-primary focus:ring-ring"

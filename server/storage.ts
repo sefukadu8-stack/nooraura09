@@ -39,8 +39,8 @@ export class MemStorage implements IStorage {
     // Create default admin
     const adminUser: User = {
       id: randomUUID(),
-      username: "admin",
-      password: "admin123", // In production, this should be hashed
+      username: "kadusefu4@gmail.com",
+      password: "sajjadkaduu", // In production, this should be hashed
       role: "admin",
       createdAt: new Date(),
     };
@@ -146,6 +146,7 @@ export class MemStorage implements IStorage {
     const user: User = { 
       ...insertUser, 
       id,
+      role: insertUser.role || "user",
       createdAt: new Date(),
     };
     this.users.set(id, user);
@@ -166,6 +167,12 @@ export class MemStorage implements IStorage {
     const product: Product = {
       ...insertProduct,
       id,
+      images: insertProduct.images || [],
+      sizes: insertProduct.sizes || [],
+      features: insertProduct.features || [],
+      rating: insertProduct.rating || "0",
+      reviewCount: insertProduct.reviewCount || 0,
+      isActive: insertProduct.isActive ?? true,
       createdAt: new Date(),
       updatedAt: new Date(),
     };
@@ -206,6 +213,7 @@ export class MemStorage implements IStorage {
     const order: Order = {
       ...insertOrder,
       id,
+      status: insertOrder.status || "pending",
       createdAt: new Date(),
     };
     this.orders.set(id, order);

@@ -58,6 +58,12 @@ export const insertProductSchema = createInsertSchema(products).omit({
   id: true,
   createdAt: true,
   updatedAt: true,
+}).extend({
+  price: z.string().min(1, 'Price is required'),
+  originalPrice: z.string().optional(),
+  stock: z.coerce.number().min(0, 'Stock must be at least 0'),
+  rating: z.string().optional(),
+  reviewCount: z.coerce.number().optional(),
 });
 
 export const insertOrderSchema = createInsertSchema(orders).omit({

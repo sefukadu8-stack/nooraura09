@@ -64,13 +64,13 @@ export async function registerRoutes(app: Express): Promise<Server> {
       return res.status(401).json({ message: "Invalid credentials" });
     }
 
-    req.user = user;
+    (req as any).user = user;
     next();
   };
 
   // Admin authentication
   app.post("/api/admin/login", requireAuth, async (req, res) => {
-    const user = req.user;
+    const user = (req as any).user;
     if (user.role !== "admin") {
       return res.status(403).json({ message: "Admin access required" });
     }
