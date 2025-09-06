@@ -60,7 +60,7 @@ export default function Home() {
             <div className="space-y-6">
               <div className="space-y-2">
                 <span className="bg-accent text-accent-foreground px-4 py-2 rounded-full text-sm font-medium">
-                  New Collection 2024
+                  New Collection 2025
                 </span>
                 <h1 className="text-5xl md:text-6xl font-serif font-bold text-foreground leading-tight">
                   Discover Your 
@@ -281,7 +281,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-secondary-foreground/20 pt-8 text-center text-secondary-foreground/60">
-            <p>&copy; 2024 AURA FASHION. All rights reserved. | Made with ❤️ for fashion lovers</p>
+            <p>&copy; 2025 AURA FASHION. All rights reserved. | Made with ❤️ for fashion lovers</p>
           </div>
         </div>
       </footer>
