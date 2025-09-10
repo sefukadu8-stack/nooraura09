@@ -245,11 +245,11 @@ export default function ProductModal({ product, isOpen, onClose, onWhatsAppOrder
                 <div className="flex items-center space-x-6 text-sm">
                   <div className="flex items-center">
                     <Truck className="w-4 h-4 text-green-600 mr-2" />
-                    <span>Free Delivery</span>
+                    <span>Free Delivery on ₹1999+</span>
                   </div>
                   <div className="flex items-center">
                     <RotateCcw className="w-4 h-4 text-blue-600 mr-2" />
-                    <span>Easy Returns</span>
+                    <span>replace policy</span>
                   </div>
                   <div className="flex items-center">
                     <Shield className="w-4 h-4 text-purple-600 mr-2" />
