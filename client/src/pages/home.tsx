@@ -179,9 +179,9 @@ export default function Home() {
             <div>
               <h2 className="text-4xl font-serif font-bold mb-6">AURA FASHION Story</h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                AURA FASHION represents the perfect fusion of traditional Indian craftsmanship and contemporary fashion. 
-                Our carefully curated collection of kurta sets celebrates the timeless elegance of Indian ethnic wear.
-              </p>
+                At AURA FASHION, we bring you carefully selected designs that perfectly blend traditional beauty with modern fashion.
+Each kurta set in our collection is handpicked for its quality, comfort, and style, ensuring you get only the best pieces that enhance your personality with grace and elegance.
+Our goal is to make every woman feel confident and beautiful in our outfits.</p>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
                 Each piece is handpicked for its quality, design, and comfort, ensuring that every woman feels 
                 confident and beautiful in our creations.
