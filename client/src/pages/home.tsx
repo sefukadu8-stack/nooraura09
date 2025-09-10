@@ -183,9 +183,7 @@ export default function Home() {
 Each kurta set in our collection is handpicked for its quality, comfort, and style, ensuring you get only the best pieces that enhance your personality with grace and elegance.
 Our goal is to make every woman feel confident and beautiful in our outfits.</p>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                Each piece is handpicked for its quality, design, and comfort, ensuring that every woman feels 
-                confident and beautiful in our creations.
-              </p>
+                AURA FASHION.</p>
               <div className="grid grid-cols-3 gap-8 mb-8">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">500+</div>
