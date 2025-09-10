@@ -551,7 +551,7 @@ export default function AdminPanel({ isOpen, onClose }: AdminPanelProps) {
                       <div>
                         <Label>Available Sizes</Label>
                         <div className="flex flex-wrap gap-3 mt-2">
-                          {['XS', 'XXL', '3XL', '4XL', '5XL', '6XL', '7XL', 'Free Size'].map((size) => (
+                          {['XS', 'S', 'M', 'L', 'XL', 'XXL', '3XL', '4XL', '5XL', '6XL', '7XL', 'Free Size'].map((size) => (
                             <label key={size} className="flex items-center space-x-2 cursor-pointer">
                               <input
                                 type="checkbox"
