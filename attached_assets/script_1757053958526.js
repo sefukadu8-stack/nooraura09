@@ -1453,7 +1453,7 @@ function addNewProduct() {
                     <div>
                         <div class="form-group">
                             <label>Sizes (comma separated)</label>
-                            <input type="text" id="newProductSizes" placeholder="S,M,L,XL,XXL" required>
+                            <input type="text" id="newProductSizes" placeholder="XS, S, M, L, XL, XXL, 3XL, 4XL, 5XL, 6XL, 7XL, Free Size" required>
                         </div>
                         <div class="form-group">
                             <label>Fabric</label>
