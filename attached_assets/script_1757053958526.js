@@ -41,8 +41,10 @@ const settings = JSON.parse(localStorage.getItem("settings")) || {
   // About Section
   aboutTitle: "AURA FASHION Story",
   aboutDescription:
-    "AURA FASHION represents the perfect fusion of traditional Indian craftsmanship and contemporary fashion. Our carefully curated collection of kurta sets celebrates the timeless elegance of Indian ethnic wear.",
-
+    "AURA FASHION At AURA FASHION, we bring you carefully selected designs that perfectly blend traditional beauty with modern fashion.
+Each kurta set in our collection is handpicked for its quality, comfort, and style, ensuring you get only the best pieces that enhance your personality with grace and elegance.
+Our goal is to make every woman feel confident and beautiful in our outfits.
+  
   // Hero Section
   heroTitle: "Discover Your Elegance",
   heroSubtitle: "New Collection 2024",
