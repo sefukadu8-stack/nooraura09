@@ -51,8 +51,8 @@ export class MemStorage implements IStorage {
       {
         id: randomUUID(),
         name: "Elegant Readymade Kurta Set",
-        description: "Premium cotton blend kurta set featuring intricate embroidery work and comfortable fit. Perfect for festivals, parties, and special occasions.",
-        category: "Cotton",
+        description: "Premium Readymade blend kurta set featuring intricate embroidery work and comfortable fit. Perfect for festivals, parties, and special occasions.",
+        category: "Readymade",
         price: "2499",
         originalPrice: "3999",
         stock: 15,
