@@ -41,15 +41,13 @@ const settings = JSON.parse(localStorage.getItem("settings")) || {
   // About Section
   aboutTitle: "AURA FASHION Story",
   aboutDescription:
-    "AURA FASHION At AURA FASHION, we bring you carefully selected designs that perfectly blend traditional beauty with modern fashion.
-Each kurta set in our collection is handpicked for its quality, comfort, and style, ensuring you get only the best pieces that enhance your personality with grace and elegance.
-Our goal is to make every woman feel confident and beautiful in our outfits.
-  
+    "AURA FASHION",
+
   // Hero Section
   heroTitle: "Discover Your Elegance",
-  heroSubtitle: "New Collection 2024",
+  heroSubtitle: "New Collection 2025",
   heroDescription:
-    "Premium handcrafted kurta sets that blend traditional artistry with contemporary fashion. Each piece tells a story of elegance and sophistication.",
+    "AURA FASHION",
 }
 
 // Initialize
@@ -1455,7 +1453,7 @@ function addNewProduct() {
                     <div>
                         <div class="form-group">
                             <label>Sizes (comma separated)</label>
-                            <input type="text" id="newProductSizes" placeholder="XS, S, M, L, XL, XXL, 3XL, 4XL, 5XL, 6XL, 7XL, Free Size" required>
+                            <input type="text" id="newProductSizes" placeholder='XS', 'S', 'M', 'L', 'XL', 'XXL', '3XL', '4XL', '5XL', '6XL', '7XL', 'Free Size', 'Unstitched', required>
                         </div>
                         <div class="form-group">
                             <label>Fabric</label>
