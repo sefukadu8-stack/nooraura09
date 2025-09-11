@@ -115,7 +115,7 @@ export default function Home() {
           {/* Product Filters */}
           <div className="flex justify-center mb-8">
             <div className="flex space-x-2 bg-card rounded-full p-2 shadow-md">
-              {['all', 'cotton', 'silk', 'chiffon', 'designer'].map((category) => (
+              {['all', 'readymade-collection', 'pakistani-suits', 'sharara-collection', 'kurti'].map((category) => (
                 <button
                   key={category}
                   onClick={() => setSelectedCategory(category)}
