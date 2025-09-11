@@ -3,13 +3,13 @@ export const COMPANY_EMAIL = "sefudinkadu@gmail.com";
 
 export const PRODUCT_CATEGORIES = [
   { value: "all", label: "All" },
-{ value: "readymade-collection", label: "Readymade Collection" },
-{ value: "pakistani-suits", label: "Pakistani Suits" },
-{ value: "sharara-collection", label: "Sharara Collection" },
-{ value: "kurti", label: "Kurti" }
+  { value: "Readymade", label: "Readymade" },
+  { value: "Suits", label: "Suits" },
+  { value: "Kurtis", label: "Kurtis" },
+  { value: "designer", label: "Designer" }
 ];
 
-export const PRODUCT_SIZES = ["S", "M", "L", "XL", "XXL"];
+export const PRODUCT_SIZES = ["XS", "S", "M", "L", "XL", "XXL", "3XL", "4XL", "5XL", "6XL", "7XL", "Free Size", "Unstitched",];
 
 export const INDIAN_STATES = [
   "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh",
