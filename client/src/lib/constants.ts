@@ -2,12 +2,7 @@ export const WHATSAPP_NUMBER = "918780813692";
 export const COMPANY_EMAIL = "sefudinkadu@gmail.com";
 
 export const PRODUCT_CATEGORIES = [
-  { value: "all", label: "All" },
-  { value: "Readymade", label: "Readymade" },
-  { value: "Suits", label: "Suits" },
-  { value: "Kurtis", label: "Kurtis" },
-  { value: "designer", label: "Designer" }
-];
+'all', 'readymade', 'suits', 'kurtis', 'designer']; 
 
 export const PRODUCT_SIZES = ["XS", "S", "M", "L", "XL", "XXL", "3XL", "4XL", "5XL", "6XL", "7XL", "Free Size", "Unstitched",];
 
