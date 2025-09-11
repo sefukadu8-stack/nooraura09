@@ -403,11 +403,10 @@ export default function AdminPanel({ isOpen, onClose }: AdminPanelProps) {
                               <SelectValue placeholder="Select category" />
                             </SelectTrigger>
                             <SelectContent>
-                              <SelectItem value="Cotton">Cotton</SelectItem>
-                              <SelectItem value="Silk">Silk</SelectItem>
-                              <SelectItem value="Chiffon">Chiffon</SelectItem>
-                              <SelectItem value="Designer">Designer</SelectItem>
-                            </SelectContent>
+                              <SelectItem value="Readymade Collection">Readymade Collection</SelectItem>
+<SelectItem value="Pakistani Suits">Pakistani Suits</SelectItem>
+<SelectItem value="Sharara Collection">Sharara Collection</SelectItem>
+<SelectItem value="Kurti">Kurti</SelectItem>
                           </Select>
                           {productErrors.category && (
                             <p className="text-red-500 text-sm mt-1">{productErrors.category.message}</p>
