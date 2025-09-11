@@ -255,8 +255,8 @@ Each kurta set in our collection is handpicked for its quality, comfort, and sty
             <div>
               <h4 className="text-lg font-semibold mb-4">Categories</h4>
               <ul className="space-y-2 text-secondary-foreground/80">
-                <li><a href="#" className="hover:text-secondary-foreground transition-colors">Cotton Kurtas</a></li>
-                <li><a href="#" className="hover:text-secondary-foreground transition-colors">Silk Collection</a></li>
+                <li><a href="#" className="hover:text-secondary-foreground transition-colors">Readymade</a></li>
+                <li><a href="#" className="hover:text-secondary-foreground transition-colors">Suits</a></li>
                 <li><a href="#" className="hover:text-secondary-foreground transition-colors">Party Wear</a></li>
                 <li><a href="#" className="hover:text-secondary-foreground transition-colors">Designer Sets</a></li>
               </ul>
