@@ -50,7 +50,7 @@ export class MemStorage implements IStorage {
     const sampleProducts: Product[] = [
       {
         id: randomUUID(),
-        name: "Elegant Cotton Kurta Set",
+        name: "Elegant Readymade Kurta Set",
         description: "Premium cotton blend kurta set featuring intricate embroidery work and comfortable fit. Perfect for festivals, parties, and special occasions.",
         category: "Cotton",
         price: "2499",
@@ -63,7 +63,7 @@ export class MemStorage implements IStorage {
         ],
         sizes: ["S", "M", "L", "XL", "XXL"],
         features: [
-          "Premium cotton blend fabric",
+          "Premium Readymade blend fabric",
           "Intricate hand embroidery",
           "Comfortable regular fit",
           "Machine washable",
@@ -77,9 +77,9 @@ export class MemStorage implements IStorage {
       },
       {
         id: randomUUID(),
-        name: "Designer Silk Kurta",
-        description: "Luxurious silk kurta with golden thread work, perfect for special occasions and celebrations.",
-        category: "Silk",
+        name: "Designer Suits Kurta",
+        description: "Luxurious Suits kurta with golden thread work, perfect for special occasions and celebrations.",
+        category: "Suits",
         price: "4999",
         originalPrice: "6999",
         stock: 8,
@@ -88,7 +88,7 @@ export class MemStorage implements IStorage {
         ],
         sizes: ["M", "L", "XL", "XXL"],
         features: [
-          "Pure silk fabric",
+          "Pure Suits fabric",
           "Golden thread work",
           "Designer collection",
           "Dry clean only"
@@ -101,9 +101,9 @@ export class MemStorage implements IStorage {
       },
       {
         id: randomUUID(),
-        name: "Party Wear Chiffon",
-        description: "Flowing chiffon kurta with mirror work details, ideal for evening parties and gatherings.",
-        category: "Chiffon",
+        name: "Party Wear Kurtis",
+        description: "Flowing Kurtis kurta with mirror work details, ideal for evening parties and gatherings.",
+        category: "Kurtis",
         price: "3799",
         originalPrice: "5299",
         stock: 12,
@@ -112,7 +112,7 @@ export class MemStorage implements IStorage {
         ],
         sizes: ["S", "M", "L", "XL"],
         features: [
-          "Flowing chiffon fabric",
+          "Flowing Kurtis fabric",
           "Mirror work details",
           "Party wear collection",
           "Hand wash recommended"
