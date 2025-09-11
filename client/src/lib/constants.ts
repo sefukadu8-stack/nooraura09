@@ -3,10 +3,10 @@ export const COMPANY_EMAIL = "sefudinkadu@gmail.com";
 
 export const PRODUCT_CATEGORIES = [
   { value: "all", label: "All" },
-  { value: "cotton", label: "Cotton" },
-  { value: "silk", label: "Silk" },
-  { value: "chiffon", label: "Chiffon" },
-  { value: "designer", label: "Designer" }
+{ value: "readymade-collection", label: "Readymade Collection" },
+{ value: "pakistani-suits", label: "Pakistani Suits" },
+{ value: "sharara-collection", label: "Sharara Collection" },
+{ value: "kurti", label: "Kurti" }
 ];
 
 export const PRODUCT_SIZES = ["S", "M", "L", "XL", "XXL"];
