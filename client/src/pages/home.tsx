@@ -114,20 +114,20 @@ export default function Home() {
           {/* Product Filters */}
           <div className="flex justify-center mb-8">
             <div className="flex space-x-2 bg-card rounded-full p-2 shadow-md">
-              {['all', 'Readymade', 'Suits', 'Kurtis', 'designer'].map((category) => (
-                <button
-                  key={category}
-                  onClick={() => setSelectedCategory(category)}
-                  className={`px-6 py-2 rounded-full font-medium transition-colors ${
-                    selectedCategory === category
-                      ? 'bg-primary text-primary-foreground'
-                      : 'text-muted-foreground hover:bg-muted'
-                  }`}
-                  data-testid={`filter-${category}`}
-                >
-                  {category.charAt(0).toUpperCase() + category.slice(1)}
-                </button>
-              ))}
+              {['all', 'readymade', 'suits', 'kurtis', 'designer'].map((category) => (
+  <button
+    key={category}
+    onClick={() => setSelectedCategory(category)}
+    className={`px-6 py-2 rounded-full font-medium transition-colors ${
+      selectedCategory === category
+        ? 'bg-primary text-primary-foreground'
+        : 'text-muted-foreground hover:bg-muted'
+    }`}
+    data-testid={`filter-${category}`}
+  >
+    {category.charAt(0).toUpperCase() + category.slice(1)}
+  </button>
+))}
             </div>
           </div>
 
