@@ -116,19 +116,19 @@ export default function Home() {
           <div className="flex justify-center mb-8">
             <div className="flex space-x-2 bg-card rounded-full p-2 shadow-md">
               {['all', 'readymade-collection', 'pakistani-suits', 'sharara-collection', 'kurti'].map((category) => (
-                <button
-                  key={category}
-                  onClick={() => setSelectedCategory(category)}
-                  className={`px-6 py-2 rounded-full font-medium transition-colors ${
-                    selectedCategory === category
-                      ? 'bg-primary text-primary-foreground'
-                      : 'text-muted-foreground hover:bg-muted'
-                  }`}
-                  data-testid={`filter-${category}`}
-                >
-                  {category.charAt(0).toUpperCase() + category.slice(1)}
-                </button>
-              ))}
+  <button
+    key={category}
+    onClick={() => setSelectedCategory(category)}
+    className={`px-6 py-2 rounded-full font-medium transition-colors ${
+      selectedCategory === category
+        ? 'bg-primary text-primary-foreground'
+        : 'text-muted-foreground hover:bg-muted'
+    }`}
+    data-testid={`filter-${category}`}
+  >
+    {category.charAt(0).toUpperCase() + category.slice(1)}
+  </button>
+))}
             </div>
           </div>
 
