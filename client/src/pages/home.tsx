@@ -68,8 +68,7 @@ export default function Home() {
                 </h1>
               </div>
               <p className="text-xl text-muted-foreground max-w-lg">
-                Premium handcrafted kurta sets that blend traditional artistry with contemporary fashion. 
-                Each piece tells a story of elegance and sophistication.
+                AURA FASHION
               </p>
               <div className="flex space-x-4">
                 <Button size="lg" className="btn-hover-lift">
@@ -115,20 +114,20 @@ export default function Home() {
           {/* Product Filters */}
           <div className="flex justify-center mb-8">
             <div className="flex space-x-2 bg-card rounded-full p-2 shadow-md">
-              {['all', 'readymade-collection', 'pakistani-suits', 'sharara-collection', 'kurti'].map((category) => (
-  <button
-    key={category}
-    onClick={() => setSelectedCategory(category)}
-    className={`px-6 py-2 rounded-full font-medium transition-colors ${
-      selectedCategory === category
-        ? 'bg-primary text-primary-foreground'
-        : 'text-muted-foreground hover:bg-muted'
-    }`}
-    data-testid={`filter-${category}`}
-  >
-    {category.charAt(0).toUpperCase() + category.slice(1)}
-  </button>
-))}
+              {['all', 'Readymade', 'Suits', 'Kurtis', 'designer'].map((category) => (
+                <button
+                  key={category}
+                  onClick={() => setSelectedCategory(category)}
+                  className={`px-6 py-2 rounded-full font-medium transition-colors ${
+                    selectedCategory === category
+                      ? 'bg-primary text-primary-foreground'
+                      : 'text-muted-foreground hover:bg-muted'
+                  }`}
+                  data-testid={`filter-${category}`}
+                >
+                  {category.charAt(0).toUpperCase() + category.slice(1)}
+                </button>
+              ))}
             </div>
           </div>
 
@@ -179,11 +178,13 @@ export default function Home() {
             <div>
               <h2 className="text-4xl font-serif font-bold mb-6">AURA FASHION Story</h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                At AURA FASHION, we bring you carefully selected designs that perfectly blend traditional beauty with modern fashion.
+                AURA FASHION At AURA FASHION, we bring you carefully selected designs that perfectly blend traditional beauty with modern fashion.
 Each kurta set in our collection is handpicked for its quality, comfort, and style, ensuring you get only the best pieces that enhance your personality with grace and elegance.
-Our goal is to make every woman feel confident and beautiful in our outfits.</p>
+              </p>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                AURA FASHION.</p>
+                Each piece is handpicked for its quality, design, and comfort, ensuring that every woman feels 
+                confident and beautiful in our creations.
+              </p>
               <div className="grid grid-cols-3 gap-8 mb-8">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">500+</div>
