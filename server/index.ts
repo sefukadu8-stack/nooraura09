@@ -1,6 +1,18 @@
 import express, { type Request, Response, NextFunction } from "express";
+import mongoose from "mongoose"; // 👈 MongoDB import
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
+
+// -------------------- MongoDB Connection --------------------
+const mongoURI = process.env.MONGO_URI;
+
+mongoose.connect(mongoURI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+})
+.then(() => console.log("✅ MongoDB connected successfully"))
+.catch((err) => console.error("❌ MongoDB connection error:", err));
+// ------------------------------------------------------------
 
 const app = express();
 app.use(express.json());
@@ -57,15 +69,12 @@ app.use((req, res, next) => {
   }
 
   // ALWAYS serve the app on the port specified in the environment variable PORT
-  // Other ports are firewalled. Default to 5000 if not specified.
-  // this serves both the API and the client.
-  // It is the only port that is not firewalled.
   const port = parseInt(process.env.PORT || '5000', 10);
   server.listen({
     port,
     host: "0.0.0.0",
     reusePort: true,
   }, () => {
-    log(`serving on port ${port}`);
+    log(`🚀 Server running and connected to MongoDB on port ${port}`);
   });
 })();
