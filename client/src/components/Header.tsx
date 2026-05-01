@@ -1,3 +1,4 @@
+import Login from "./Login"; 
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -9,7 +10,7 @@ export default function Header() {
   return (
     <header className="bg-card shadow-lg fixed w-full top-6 z-40">
       <div className="container mx-auto px-4">
-        {/* Top Bar */}
+        {/* Top Bar */} 
         <div className="bg-primary text-primary-foreground py-2 px-4 rounded-t-lg">
           <div className="flex justify-between items-center text-sm">
             <div className="flex items-center space-x-6">
